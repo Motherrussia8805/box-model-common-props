@@ -571,6 +571,7 @@ margin: 1rem 0;
         - add the wood background texture from the images folder
 */
 #pattern1{
+    background: var(--light-gray) 110% url("images/wood.png")
     
 }
 
@@ -628,6 +629,7 @@ margin: 1rem 0;
         - float the image to the right
 */
 #dog-house{
+    float: right;
     
 }
 
@@ -637,7 +639,7 @@ margin: 1rem 0;
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
